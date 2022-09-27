@@ -1,0 +1,16 @@
+<script>
+    var _mainBalance, _chal, _mach, _sobji, _totalCost, _lastBalance , _chalNew, _machNew;
+    _mainBalance = 1500;
+    _chal = 50*5;
+    _mach = 250*3;
+    _sobji = 260;
+    _chalNew = (_chal - (_chal*15)/100);
+    _machNew = (_mach - (_mach*26)/100);
+    _totalCost = _chalNew + _machNew + _sobji;
+    _lastBalance = _mainBalance - _totalCost;
+    document.write("Last Balance = "+ _lastBalance);
+</script>
+<!-- secound programm Function -->
+<hr>
+<br>
+<br>
